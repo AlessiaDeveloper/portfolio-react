@@ -21,7 +21,6 @@ export default function ImgCar(props) {
                 className="flex w-full h-[300px]" // Imposta l'altezza fissa desiderata
                 alt={`Immagine ${index + 1}`}
               />
-              {/* Altri dettagli dell'immagine (se necessario) */}
             </TECarouselItem>
           ))}
         </div>

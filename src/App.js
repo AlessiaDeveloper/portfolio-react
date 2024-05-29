@@ -1,5 +1,4 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -12,14 +11,13 @@ import Carosello from "./components/Carosello";
 function App() {
   return (
     <div className="App">
-      <ScrollToAnchor></ScrollToAnchor>
+      <ScrollToAnchor />
       <Navbar />
       <Intro />
-      <Header></Header>
+      <Header />
       <Carosello />
       <SectionTec />
       <Footer />
-      <Routes></Routes>
     </div>
   );
 }

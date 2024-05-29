@@ -1,20 +1,18 @@
 import React from "react";
 import gatto from "./../assets/gatto.jpg";
 import Botton from "./UI/Botton";
-import ButtonCar from "./UI/ButtonCar";
 import AnimatedTitle from "./UI/AnimatedTitle";
-import AnimatedPresentation from "./UI/AnimatedPresentation";
 import TestoAnimato from "./UI/TestoAnimato";
 export default function Header() {
   return (
-    <div id="home">
+    <div id="aboutMe">
       <AnimatedTitle
-        className="w-4/4 mx-5 my-8 "
+        className="w-4/4 mx-5 my-10 "
         style={{ color: "var(--rosetto)" }}
       >
         About ME
       </AnimatedTitle>
-      <div className="flex my-5 p-5 mx-5 ">
+      <div className="flex my- p-5 mx-5 ">
         <div className="w-2/4 p-8 " style={{ color: "var(--rosetto)" }}>
           <TestoAnimato>
             {" "}

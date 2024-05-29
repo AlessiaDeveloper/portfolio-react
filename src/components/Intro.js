@@ -31,7 +31,7 @@ export default function Intro() {
     <div id="home" className="relative" ref={comp}>
       <div
         id="intro-slider"
-        className="p-12 absolute top-0 left-0 z-10 w-full flex flex-column gap-10 tracking-tight justify-center place-items-center"
+        className="p-12  absolute top-0 left-0 z-10 w-full flex flex-column gap-10 tracking-tight justify-center place-items-center"
         style={{ color: "var(--rosetto)", backgroundColor: "var(--violone)" }}
       >
         <h1 className="text-7xl" id="title-1">

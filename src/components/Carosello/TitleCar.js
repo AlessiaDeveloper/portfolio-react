@@ -1,7 +1,5 @@
 import React from "react";
-import ButtonCar from "../UI/ButtonCar";
-import { IoCaretBackCircle } from "react-icons/io5";
-import { useCaroselloContext } from "../Context/CarContext";
+
 import TestoAnimato from "../UI/TestoAnimato";
 
 export default function TitleCar(props) {
@@ -13,7 +11,7 @@ export default function TitleCar(props) {
         color: "var(--rosone)",
         backgroundColor: "var(--violone)",
         height: "100%",
-      }} // Usa una percentuale dell'altezza del genitore
+      }}
     >
       <TestoAnimato> {titolo}</TestoAnimato>
     </div>
