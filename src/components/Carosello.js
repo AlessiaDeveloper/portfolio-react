@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Carosello from "./Carosello/Carosello";
+import Carosello1 from "./Carosello/Carosello1";
 import ButtonCar from "./UI/ButtonCar";
-import Carprova2 from "./Carprova2";
+import Carosello2 from "./Carosello/Carosello2";
 import { CaroselloProvider } from "./Context/CarContext";
 import { IoCaretBackCircle } from "react-icons/io5";
 import datiProgetti from "../data/projects.json";
 
-export default function ProvaCarosello() {
+export default function Carosello() {
   const [showCarosello1, setShowCarosello1] = useState(true);
   const [progettoSelezionato, setProgettoSelezionato] = useState(null);
 
@@ -28,9 +28,7 @@ export default function ProvaCarosello() {
         id="myWork"
         className="my-14 "
       >
-        <Carosello>
-          border-double text-2xl font-bold border-4 underline decoration-red-200
-          rounded-md my-10 p-5
+        <Carosello1>
           <div
             id="carosello-1"
             className={`flex justify-center border-4  decoration-red-200 border-double rounded-md mx-auto p-14 my-14  ${
@@ -75,7 +73,7 @@ export default function ProvaCarosello() {
               <IoCaretBackCircle style={{ fontSize: "40px" }} />
             </ButtonCar>
             {progettoSelezionato && (
-              <Carprova2
+              <Carosello2
                 titoloProgetto={
                   progetti.find((p) => p.id === progettoSelezionato).title
                 }
@@ -100,7 +98,7 @@ export default function ProvaCarosello() {
               />
             )}
           </div>
-        </Carosello>
+        </Carosello1>
       </div>
     </CaroselloProvider>
   );

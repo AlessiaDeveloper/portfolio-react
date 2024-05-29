@@ -1,5 +1,5 @@
 import React from "react";
-import TestoAnimato from "./UI/TestoAnimato";
+import TestoAnimato from "../UI/TestoAnimato";
 
 export default function DescriptionCar(props) {
   const { descrizione } = props;

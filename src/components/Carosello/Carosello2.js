@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import ButtonCar from "./UI/ButtonCar";
 import DescriptionCar from "./DescriptionCar";
-import LinkCarTec from "./Carosello/LinkCarTec";
-import ImgCar from "./Carosello/ImgCar";
-import TitleCar from "./Carosello/TitleCar";
+import LinkCarTec from "./LinkCarTec";
+import ImgCar from "./ImgCar";
+import TitleCar from "./TitleCar";
 
-export default function Carprova2(props) {
+export default function Carosello2(props) {
   const {
     titoloProgetto,
     descrizioneProgetto,

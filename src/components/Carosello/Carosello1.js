@@ -1,6 +1,6 @@
 import AnimatedTitle from "../UI/AnimatedTitle";
 
-export default function Carosello(props) {
+export default function Carosello1(props) {
   return (
     <div className="py-6">
       <div id="myWork" className="my-5 mb-13 ">
