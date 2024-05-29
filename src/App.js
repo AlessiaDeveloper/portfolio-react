@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import SectionTec from "./components/SectionTec";
+import Footer from "./components/Footer";
+import Intro from "./components/Intro";
+import Botton from "./components/UI/Botton";
+import ScrollToAnchor from "./components/ScrollToAnchor";
+import ProvaCarosello from "./components/ProvaCarosello";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ScrollToAnchor></ScrollToAnchor>
+      <Navbar />
+      <Intro />
+      <Header></Header>
+      <ProvaCarosello />
+      <SectionTec />
+      <Footer />
+      <Routes></Routes>
     </div>
   );
 }

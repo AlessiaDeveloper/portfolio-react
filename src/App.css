@@ -1,7 +1,29 @@
+/* app.css */
+/* index.css o App.css */
+@import url("https://fonts.googleapis.com/css2?family=Sedan:wght@400;700&display=swap");
+
 .App {
   text-align: center;
+  background-color: var(--violone); /* Utilizzo della variabile dei colori */
+  font-family: "Sedan", sans-serif;
 }
 
+.Link:hover {
+  color: var(--violone);
+  background-color: "red";
+}
+
+/* Definizione delle variabili dei colori */
+:root {
+  --violone: #7469b6;
+  --violetto: #ad88c6;
+  --rosone: #e1afd1;
+  --rosetto: #ffe6e6;
+  --acceso: #242038;
+  /* Altri colori personalizzati */
+}
+
+/* Resto del tuo stile CSS rimane invariato */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +57,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon:hover + .tooltip {
+  visibility: visible;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 70px;
+  background-color: var(--rosetto);
+  color: var(--violetto);
+  border-style: solid;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 6px;
+
+  padding: 3x 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  /* Aggiungi altre proprietà CSS qui per personalizzare il tuo tooltip */
 }

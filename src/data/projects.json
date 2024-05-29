@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Yoga Training",
+      "description": "Un'applicazione mobile sviluppata con React Native per gestire le sessioni di yoga. Sviluppata con flutter e Dart",
+      "carouselImages": [
+        "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
+        "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
+      ],
+      "links": {
+        "figma": "https://pixabay.com/it/illustrations/casa-futuristica-grandi-pianeti-viola-8397004/",
+        "github": "https://link.a.github.com/progetto1",
+        "playStore": "https://link.al.playstore.com/progetto1",
+        "website": "https://link.al.sito.web/progetto1"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Cookie Clicker",
+      "description": "Un gioco simile a cookie clicker sviluppato con React Native",
+      "carouselImages": [
+        "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
+        "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
+      ],
+      "links": {
+        "github": "https://link.a.github.com/progetto2",
+        "website": "https://link.al.sito.web/progetto2",
+        "playStore": "https://link.al.playstore.com/progetto1"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Altro",
+      "description": "Altro",
+      "carouselImages": [
+        "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
+        "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
+      ],
+      "links": {
+        "github": "https://link.a.github.com/progetto2",
+        "website": "https://link.al.sito.web/progetto2",
+        "playStore": "https://link.al.playstore.com/progetto1"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Altro",
+      "description": "Altro",
+      "carouselImages": [
+        "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
+        "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
+      ],
+      "links": {
+        "github,": "https://link.a.github.com/progetto2",
+        "website": "https://link.al.sito.web/progetto2",
+        "playStore": "https://link.al.playstore.com/progetto1"
+      }
+    }
+  ]
+}
