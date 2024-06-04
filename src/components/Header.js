@@ -13,7 +13,10 @@ export default function Header() {
         About ME
       </AnimatedTitle>
       <div className="flex my- p-5 mx-5 ">
-        <div className="w-2/4 p-8 " style={{ color: "var(--rosetto)" }}>
+        <div
+          className="xs:w-4/4 md:w-2/4 p-8 "
+          style={{ color: "var(--rosetto)" }}
+        >
           <TestoAnimato>
             {" "}
             Sono una sviluppatrice full stack con un anno di esperienza
@@ -33,7 +36,7 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <div className="w-2/4 flex justify-center mr-12 p-5">
+        <div className="xs:w-4/4 md:w-2/4 flex justify-center md:mr-12 md:p-5">
           <img className="w-64 h-64" src={gatto} alt="gatto"></img>
         </div>
       </div>

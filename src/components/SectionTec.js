@@ -37,7 +37,7 @@ export default function SectionTec() {
       <div id="myTec">
         <AnimatedTitle>My TECHNOLOGY</AnimatedTitle>
       </div>
-      <div className="grid grid-cols-4 gap-0 place-items-center mx-12 p-4">
+      <div className="grid xs:grid-cols-1 md:grid-cols-4 gap-0 place-items-center mx-12 p-4">
         <Card>
           <h1 className="text-lg font-bold mb-3 ">Linguaggi</h1>
           <div className="flex flex-wrap p-3 text-xl gap-4">

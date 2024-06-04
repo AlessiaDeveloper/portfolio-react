@@ -27,21 +27,21 @@ export default function TestoAnimato(props) {
           y: "0%",
           opacity: 1,
           duration: 0.6,
-          delay: gsap.utils.random(0, 2), // Ritardo casuale tra 0 e 2 secondi
+          delay: gsap.utils.random(0, 2),
           ease: "back.out(1.7)",
           scrollTrigger: {
             trigger: text,
-            start: "top 80%", // Quando il top del trigger è al 80% del viewport
-            toggleActions: "play none none none", // Azioni: play, pause, resume, reverse
-            markers: false, // Mostra marcatori di ScrollTrigger per debugging
+            start: "top 80%",
+            toggleActions: "play none none none",
+            markers: false,
           },
         }
       );
     });
-  }, []);
+  }, [props.children]); // Aggiungi props.children come dipendenza
 
   return (
-    <div className="flex justify-center  mt-3">
+    <div className="flex justify-center mt-3">
       <h1 ref={headingRef}>{props.children}</h1>
     </div>
   );

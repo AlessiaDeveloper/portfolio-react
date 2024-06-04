@@ -10,16 +10,16 @@ export default function LinkCarTec(props) {
   const containerRef = useRef(null);
   const { showCarosello1 } = useCaroselloContext();
 
-  useEffect(() => {
-    if (showCarosello1) {
-      const buttons = containerRef.current.children;
-      gsap.fromTo(
-        buttons,
-        { y: 50, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.2, ease: "bounce.out", duration: 1 }
-      );
-    }
-  });
+  // useEffect(() => {
+  //   if (showCarosello1) {
+  //     const buttons = containerRef.current.children;
+  //     gsap.fromTo(
+  //       buttons,
+  //       { y: 50, opacity: 0 },
+  //       { y: 0, opacity: 1, stagger: 0.2, ease: "bounce.out", duration: 1 }
+  //     );
+  //   }
+  // });
 
   return (
     <div
