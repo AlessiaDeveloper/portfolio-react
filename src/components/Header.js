@@ -12,22 +12,22 @@ export default function Header() {
       >
         About ME
       </AnimatedTitle>
-      <div className="flex my- p-5 mx-5 ">
+      <div className="flex md:flex-nowrap xs:flex-wrap my- p-5 mx-5 ">
+        <div className="xs:w-4/4 md:w-2/4 flex justify-center xs:px-5 md:mr-12 md:p-5">
+          <img className="w-64 h-64" src={gatto} alt="gatto"></img>
+        </div>
         <div
-          className="xs:w-4/4 md:w-2/4 p-8 "
+          className="xs:w-4/4 md:w-2/4 md:px-16 xs:p-4 "
           style={{ color: "var(--rosetto)" }}
         >
           <TestoAnimato>
             {" "}
-            Sono una sviluppatrice full stack con un anno di esperienza
+            Sono una sviluppatrice full stack con un paio di anni di esperienza
             acquisita sia in azienda che nello sviluppo di progetti personali.
-            Attualmente, sono alla ricerca di un’opportunità che mi permetta di
-            continuare il mio percorso professionale nel campo della
-            programmazione frontend. L’obiettivo è crescere sia come individuo
-            che come professionista. Tra le mie competenze, spiccano il problem
-            solving e la capacità di lavorare sia autonomamente che in gruppo.
+            Tra le mie competenze, spiccano il problem solving e la capacità di
+            lavorare sia autonomamente che in gruppo.
           </TestoAnimato>
-          <div className="flex justify-center mt-3">
+          <div className="flex justify-center mt-4">
             <a href="/cv.pdf" download="Cv Mori Alessia">
               <Botton>Curriculum</Botton>
             </a>
@@ -35,9 +35,6 @@ export default function Header() {
               <Botton>Email</Botton>
             </a>
           </div>
-        </div>
-        <div className="xs:w-4/4 md:w-2/4 flex justify-center md:mr-12 md:p-5">
-          <img className="w-64 h-64" src={gatto} alt="gatto"></img>
         </div>
       </div>
     </div>

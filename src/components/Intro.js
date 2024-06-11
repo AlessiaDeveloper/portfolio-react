@@ -31,26 +31,26 @@ export default function Intro() {
     <div id="home" className="relative" ref={comp}>
       <div
         id="intro-slider"
-        className="p-12  absolute top-0 left-0 z-10 w-full flex flex-column gap-10 tracking-tight justify-center place-items-center"
+        className="md:p-12 xs:p-6  absolute top-0 left-0 z-10 w-full flex flex-column gap-10 tracking-tight justify-center place-items-center"
         style={{ color: "var(--rosetto)", backgroundColor: "var(--violone)" }}
       >
-        <h1 className="text-7xl" id="title-1">
+        <h1 className="md:text-7xl xs:text-2xl " id="title-1">
           Frontend dev
         </h1>
-        <h1 className="text-7xl" id="title-2">
+        <h1 className="md:text-7xl xs:text-2xl" id="title-2">
           Mobile dev
         </h1>
-        <h1 className="text-7xl" id="title-3">
+        <h1 className="md:text-7xl xs:text-2xl" id="title-3">
           Designer
         </h1>
       </div>
       <div
-        className="p-12 flex justify-center place-items-center"
+        className="md:p-12 xs:p-6 flex justify-center place-items-center"
         style={{ color: "var(--violone)", backgroundColor: "var(--rosetto)" }}
       >
         <h1
           id="welcome"
-          className="text-7xl font-bold"
+          className="md:text-7xl xs:text-4xl font-bold"
           style={{ color: "var(--violetto)" }}
         >
           Alessia Mori

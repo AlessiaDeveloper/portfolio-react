@@ -15,14 +15,14 @@ export default function Carosello2(props) {
 
   return (
     <div>
-      <div className="flex flex-col w-full h-full">
-        <div className="flex w-full justify-center align-center h-4/4">
-          <TitleCar titolo={titoloProgetto} />
+      <div className="flex md:flex-col w-full h-full">
+        <div className="flex md:flex-nowrap xs:flex-wrap w-full justify-center align-center h-4/4">
+          <TitleCar className="xs" titolo={titoloProgetto} />
           <LinkCarTec github={linkGithub} sito={linkSito} figma={linkFigma} />
         </div>
 
         <div className="flex w-full h-4/4 ">
-          <div className="w-4/6  overflow-hidden">
+          <div className="w-4/6 overflow-hidden">
             {" "}
             <ImgCar immagini={immaginiProgetto} />
           </div>

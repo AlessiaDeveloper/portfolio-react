@@ -24,13 +24,13 @@ export default function Navbar() {
         </button>
         <button
           onClick={toggleNav}
-          className="text-red-100 rounded-md mx-10 px-4 py-2 text-md lg:hidden md:hidden sm:font-light"
+          className="text-red-100 rounded-md mx-3 px-4 py-2 text-md lg:hidden md:hidden sm:font-light"
         >
           <TiThMenuOutline />
         </button>
         <Link
           to="/#home"
-          className="hover:bg-red-100 text-red-100 xs:hidden md:block lg:block hover:text-indigo-700 rounded-md px-3 text-sm font-medium"
+          className="hover:bg-red-100 text-red-100 xs:hidden md:block lg:block hover:text-indigo-700 rounded-md px-3 py-2 text-sm font-medium"
           aria-current="page"
         >
           Home

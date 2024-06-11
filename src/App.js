@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <ScrollToAnchor />
       <Navbar />
-      {/* <Intro /> */}
+      <Intro />
       <Header />
       <Carosello />
       <SectionTec />

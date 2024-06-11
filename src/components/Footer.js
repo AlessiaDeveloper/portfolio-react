@@ -7,9 +7,9 @@ export default function Footer() {
         className=" rounded-lg shadow mx-3 mt-10"
         style={{ backgroundColor: "var(--rosetto)" }}
       >
-        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <div class="w-full mx-auto max-w-screen-xl p-2 md:p-4 md:flex md:items-center md:justify-between">
           <span
-            className="text-sm sm:text-center"
+            className="text-sm xs:text-center"
             style={{ color: "var(--violone)" }}
           >
             © 2024{" "}
@@ -19,23 +19,23 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <ul
-            class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0"
+            class="flex flex-wrap items-center justify-center mt-3 text-sm font-medium sm:mt-0"
             style={{ color: "var(--violone)" }}
           >
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">
+              <a href="#" class="hover:underline m-2 md:me-6">
                 Playstore
               </a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">
+              <a href="#" class="hover:underline m-2 md:me-6">
                 Privacy Policy
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/AlessiaDeveloper"
-                class="hover:underline me-4 md:me-6"
+                class="hover:underline m-2 md:me-6"
               >
                 Github
               </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/alessia-mori-/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="hover:underline"
+                class="hover:underline m-2"
               >
                 Linkedin
               </a>

@@ -56,6 +56,20 @@
         "website": "https://link.al.sito.web/progetto2",
         "playStore": "https://link.al.playstore.com/progetto1"
       }
+    },
+    {
+      "id": 5,
+      "title": "Altro",
+      "description": "Altro",
+      "carouselImages": [
+        "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
+        "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
+      ],
+      "links": {
+        "github": "https://link.a.github.com/progetto2",
+        "website": "https://link.al.sito.web/progetto2",
+        "playStore": "https://link.al.playstore.com/progetto1"
+      }
     }
   ]
 }
