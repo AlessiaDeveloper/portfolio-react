@@ -6,7 +6,7 @@ export default function TitleCar(props) {
   const { titolo } = props;
   return (
     <div
-      className="w-2/4 flex justify-center items-center text-center"
+      className="md:w-2/4 xs:w-4/4 xs:pb-3 flex justify-center items-center text-center"
       style={{
         color: "var(--rosone)",
         backgroundColor: "var(--violone)",

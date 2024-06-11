@@ -24,7 +24,7 @@ export default function LinkCarTec(props) {
   return (
     <div
       ref={containerRef}
-      className="w-2/4 py-3 rounded-tr-md flex justify-center align-middle grid-rows-3"
+      className="md:w-2/4 xs:w-4/4 py-3 md:rounded-tr-md flex justify-center align-middle grid-rows-3"
       style={{ backgroundColor: "var(--violetto)" }}
     >
       <a href={figma} target="_blank" rel="noopener noreferrer">

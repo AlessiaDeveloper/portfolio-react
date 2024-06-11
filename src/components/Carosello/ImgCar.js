@@ -8,7 +8,7 @@ export default function ImgCar(props) {
   return (
     <div>
       <TECarousel showIndicators={true} ride="carousel">
-        <div className=" relative  w-5/5  rounded-md overflow-hidden after:clear-both after:block after:content-['']">
+        <div className=" relative md:w-5/5 xs:w-5/5   overflow-hidden after:clear-both after:block after:content-['']">
           {immagini.map((immagine, index) => (
             <TECarouselItem
               key={index}

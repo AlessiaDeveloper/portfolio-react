@@ -31,7 +31,7 @@ export default function Carosello() {
         <Carosello1>
           <div
             id="carosello-1"
-            className={`flex flex-wrap justify-center border-4 gap-5 decoration-red-200 border-double rounded-md mx-auto md:p-14 xs:p-10 my-14  ${
+            className={`flex md:flex-wrap xs:flex-wrap xs:mx-2 md:mx-auto justify-center border-4 md:gap-5 xs:gap-3 decoration-red-200 border-double rounded-md  md:p-14 xs:p-10 my-14  ${
               showCarosello1 ? "" : "hidden"
             }`}
             style={{
@@ -56,7 +56,7 @@ export default function Carosello() {
           </div>
           <div
             id="carosello-2"
-            className={`md:w-3/4 flex justify-center rounded-md mx-auto my-14 ${
+            className={`md:w-3/4 xs:w-4/4 xs:mx-2 md:mx-auto md:flex-nowrap xs:flex-wrap flex justify-center rounded-md  my-14 ${
               showCarosello1 ? "hidden" : ""
             }`}
             style={{
