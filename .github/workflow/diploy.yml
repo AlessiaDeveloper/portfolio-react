@@ -5,7 +5,7 @@ on:
     branches:
       - main # Puoi cambiare il branch se necessario
 
-jobs:
+jobs: #ciao
   deploy:
     runs-on: ubuntu-latest
 
