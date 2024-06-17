@@ -19,7 +19,7 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <ul
-            class="flex flex-wrap items-center justify-center mt-3 text-sm font-medium sm:mt-0"
+            class="flex flex-wrap items-center justify-center mt-1 py-1 text-sm font-medium sm:mt-0"
             style={{ color: "var(--violone)" }}
           >
             <li>

@@ -1,0 +1,29 @@
+name: Portfolio Alessia Mori
+
+on:
+  push:
+    branches:
+      - main # Puoi cambiare il branch se necessario
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Deploy to FTP server
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.reacat.it # Il tuo dominio su Aruba
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: build
+          server-dir: /www.reacat.it # Il percorso remoto dove vuoi distribuire i file

@@ -4,7 +4,7 @@ export default function Carosello1(props) {
   return (
     <div className="py-6">
       <div id="myWork" className="my-5 mb-13 ">
-        <AnimatedTitle>My WORK PROVA</AnimatedTitle>
+        <AnimatedTitle>My WORK</AnimatedTitle>
         <div className="flex justify-center items-center ">
           <div
             style={{

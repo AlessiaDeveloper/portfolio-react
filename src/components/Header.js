@@ -5,7 +5,7 @@ import AnimatedTitle from "./UI/AnimatedTitle";
 import TestoAnimato from "./UI/TestoAnimato";
 export default function Header() {
   return (
-    <div id="aboutMe">
+    <div id="aboutMe" className="my-10">
       <AnimatedTitle
         className="w-4/4 mx-5 my-10 "
         style={{ color: "var(--rosetto)" }}

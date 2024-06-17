@@ -43,13 +43,13 @@ export default function Navbar() {
         </Link>
         <Link
           to="/#myWork"
-          className="text-red-100 hover:bg-red-100 xs:hidden md:block lg:block hover:text-indigo-700 sm:hidden rounded-md px-3 py-2 text-sm font-medium"
+          className="hover:bg-red-100 text-red-100 xs:hidden md:block lg:block hover:text-indigo-700 rounded-md px-3 py-2 text-sm font-medium"
         >
           My work
         </Link>
         <Link
           to="/#myTec"
-          className="text-red-100 hover:bg-red-100 xs:hidden md:block lg:block hover:text-indigo-700 rounded-md px-3 py-2 text-sm font-medium"
+          className="hover:bg-red-100 text-red-100 xs:hidden md:block lg:block hover:text-indigo-700 rounded-md px-3 py-2 text-sm font-medium"
         >
           My technology
         </Link>
