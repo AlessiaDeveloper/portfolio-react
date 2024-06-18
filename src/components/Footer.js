@@ -23,12 +23,18 @@ export default function Footer() {
             style={{ color: "var(--violone)" }}
           >
             <li>
-              <a href="#" class="hover:underline m-2 md:me-6">
+              <a
+                href="https://flowbite.com/"
+                class="hover:underline m-2 md:me-6"
+              >
                 Playstore
               </a>
             </li>
             <li>
-              <a href="#" class="hover:underline m-2 md:me-6">
+              <a
+                href="https://flowbite.com/"
+                class="hover:underline m-2 md:me-6"
+              >
                 Privacy Policy
               </a>
             </li>
