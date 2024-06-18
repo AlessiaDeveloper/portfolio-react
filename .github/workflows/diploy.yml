@@ -25,5 +25,5 @@ jobs: #ciao
           server: ftp.reacat.it # Il tuo dominio su Aruba
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: C:\Users\hijit\OneDrive\Desktop\portfolio\
+          local-dir: C:/Users/hijit/OneDrive/Desktop/
           server-dir: /www.reacat.it # Il percorso remoto dove vuoi distribuire i file
