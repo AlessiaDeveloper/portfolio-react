@@ -12,7 +12,6 @@ import {
   FaNode,
   FaGithub,
   FaGitAlt,
-  FaLinux,
   FaTrello,
   FaJira,
 } from "react-icons/fa";

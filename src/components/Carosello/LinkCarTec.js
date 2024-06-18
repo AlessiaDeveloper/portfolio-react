@@ -1,14 +1,11 @@
-import React, { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+import React, { useRef } from "react";
 import ButtonCar from "../UI/ButtonCar";
 import { FaGithub, FaFigma } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { useCaroselloContext } from "../Context/CarContext";
 
 export default function LinkCarTec(props) {
-  const { github, sito, figma } = props;
+  const { figma } = props;
   const containerRef = useRef(null);
-  const { showCarosello1 } = useCaroselloContext();
 
   // useEffect(() => {
   //   if (showCarosello1) {
