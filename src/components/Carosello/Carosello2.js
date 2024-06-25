@@ -22,7 +22,7 @@ export default function Carosello2(props) {
         </div>
 
         <div className="flex w-full md:flex-row xs:flex-col h-4/4 ">
-          <div className="md:w-4/6 sm:w-4/6 xl:w-4/6 xs:w-6/6 overflow-hidden">
+          <div className=" md:w-6/6 sm:w-4/6 xl:w-4/6 xs:w-6/6 ">
             {" "}
             <ImgCar immagini={immaginiProgetto} />
           </div>

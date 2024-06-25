@@ -5,7 +5,7 @@ export default function DescriptionCar(props) {
   const { descrizione } = props;
   return (
     <div
-      className="md:w-2/6 xs:w-6/6 flex items-center justify-center md:rounded-br-md xs:rounded-b-md p-8 "
+      className="md:w-3/6 xs:w-6/6 flex items-center justify-center md:rounded-br-md xs:rounded-b-md p-10"
       style={{
         color: "var(--violone)",
         backgroundColor: "var(--rosone)",

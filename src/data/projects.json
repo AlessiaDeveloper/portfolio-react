@@ -18,7 +18,7 @@
     {
       "id": 2,
       "title": "Cookie Clicker",
-      "description": "Un gioco simile a cookie clicker sviluppato con React Native",
+      "description": "Un gioco mobile simile a cookie clicker sviluppato con React Native",
       "carouselImages": [
         "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
         "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "title": "Altro",
-      "description": "Altro",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "carouselImages": [
         "https://cdn.pixabay.com/photo/2023/11/18/19/06/futuristic-home-8397004_1280.jpg",
         "https://cdn.pixabay.com/photo/2024/05/05/19/13/flowers-8741784_1280.jpg"
